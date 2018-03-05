@@ -2,7 +2,7 @@
 namespace rocket\impl\monkey\ie;
 
 use n2n\web\http\controller\ControllerAdapter;
-use rocket\spec\ei\manage\util\model\EiuCtrl;
+use rocket\ei\manage\util\model\EiuCtrl;
 
 class ExportController extends ControllerAdapter {
 	private $eiuCtrl;
