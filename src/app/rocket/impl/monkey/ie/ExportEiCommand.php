@@ -3,7 +3,7 @@ namespace rocket\impl\monkey\ie;
 
 use n2n\web\http\controller\Controller;
 use rocket\impl\ei\component\command\IndependentEiCommandAdapter;
-use rocket\ei\manage\util\model\Eiu;
+use rocket\ei\util\model\Eiu;
 
 class ImportEiCommand extends IndependentEiCommandAdapter {
 	
