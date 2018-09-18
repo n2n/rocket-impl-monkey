@@ -1,5 +1,5 @@
 {
     "eiPropClasses": [
-        "rocket\\impl\\taggle\\TaggleEiProp"
+        "rocket\\impl\\monkey\\jqtagedit\\TagsStringEiProp"
     ]
 }
