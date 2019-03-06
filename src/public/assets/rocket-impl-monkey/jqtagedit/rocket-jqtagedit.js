@@ -12,7 +12,7 @@
 		
 		function upcss(field, editor, tags) {
 			$('li', editor).each(function() {
-				$(this).addClass("badge badge-secondary");
+				// $(this).addClass("badge badge-secondary");
 			});
 		}
 		

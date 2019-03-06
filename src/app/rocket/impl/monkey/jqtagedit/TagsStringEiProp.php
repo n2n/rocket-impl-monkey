@@ -29,7 +29,7 @@ class TagsMag extends StringMag {
 		$view->getHtmlBuilder()->meta()->bodyEnd()->addJs('jqtagedit/jquery.tag-editor.min.js', 'rocket\impl\monkey');
 		$view->getHtmlBuilder()->meta()->bodyEnd()->addJs('jqtagedit/jquery.caret.min.js', 'rocket\impl\monkey');
 		$view->getHtmlBuilder()->meta()->bodyEnd()->addJs('jqtagedit/rocket-jqtagedit.js', 'rocket\impl\monkey');
-		$view->getHtmlBuilder()->meta()->addCss('jqtagedit/jquery.tag-editor.css', null, 'rocket\impl\monkey');
+		$view->getHtmlBuilder()->meta()->addCss('css/tag.css', null, 'rocket');
 		
 		return parent::createUiField($propertyPath, $view, $uo);
 	}
