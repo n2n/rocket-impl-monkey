@@ -1,7 +1,6 @@
 <?php
 namespace rocket\impl\monkey\jqtagedit;
 
-use n2n\web\dispatch\mag\Mag;
 use rocket\ei\util\Eiu;
 use n2n\impl\web\dispatch\mag\model\StringMag;
 use n2n\web\dispatch\map\PropertyPath;
@@ -9,9 +8,10 @@ use n2n\web\dispatch\mag\UiOutfitter;
 use n2n\impl\web\ui\view\html\HtmlView;
 use n2n\web\ui\UiComponent;
 use rocket\impl\ei\component\prop\string\StringEiProp;
+use rocket\si\content\SiField;
 
 class TagsStringEiProp extends StringEiProp {
-	public function createMag(Eiu $eiu): Mag {
+	public function createInSiField(Eiu $eiu): SiField {
 		$mag = new TagsMag($this->getLabelLstr(), null, $this->isMandatory($eiu),
 				$this->getMaxlength(), $this->isMultiline(),
 				array('placeholder' => $this->getLabelLstr()->t($eiu->frame()->getN2nLocale())));
