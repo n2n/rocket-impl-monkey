@@ -2,7 +2,7 @@
 namespace rocket\impl\monkey\jqtagedit;
 
 use n2n\web\dispatch\mag\Mag;
-use rocket\ei\util\Eiu;
+use rocket\op\ei\util\Eiu;
 use n2n\impl\web\dispatch\mag\model\StringMag;
 use n2n\web\dispatch\map\PropertyPath;
 use n2n\web\dispatch\mag\UiOutfitter;
