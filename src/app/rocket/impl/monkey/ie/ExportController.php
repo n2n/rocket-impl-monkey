@@ -2,13 +2,13 @@
 namespace rocket\impl\monkey\ie;
 
 use n2n\web\http\controller\ControllerAdapter;
-use rocket\op\ei\util\EiuCtrl;
+use rocket\op\util\OpuCtrl;
 
 class ExportController extends ControllerAdapter {
-	private $eiuCtrl;
+	private $opuCtrl;
 	
-	private function _init(EiuCtrl $eiuCtrl) {
-		$this->eiuCtrl = $eiuCtrl;
+	private function _init(OpuCtrl $opuCtrl) {
+		$this->opuCtrl = $opuCtrl;
 	}
 	
 	function index() {
